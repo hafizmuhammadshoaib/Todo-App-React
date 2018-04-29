@@ -1,0 +1,7 @@
+#taskSpan{
+    float:left;
+    display:inline-block;
+    width: 35%;
+    height: 88%;
+    word-wrap:break-word;
+}
