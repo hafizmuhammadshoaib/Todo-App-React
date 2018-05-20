@@ -64,7 +64,7 @@ class Todo extends Component {
 const mapStateToProps = (state) => {
   console.log(state);
   return {
-    taskArray: state.todo
+    taskArray: state.TodoReducer.todo
   }
 }
 const mapDispatchToProps = (dispatch) => {
